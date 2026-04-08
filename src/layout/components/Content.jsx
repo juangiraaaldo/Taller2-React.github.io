@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const productosIniciales = [
-  { id: 1, nombre: 'Mouse Gamer', categoria: 'Audio', precio: 22000, stock: 22, imagen: '/TALLER"-REACT.github.io/images/MouseGamer.png' },
-  { id: 2, nombre: 'Teclado Gamer', categoria: 'Periféricos', precio: 115000, stock: 3, imagen: '/TALLER"-REACT.github.io/images/teclado.png' },
-  { id: 3, nombre: 'Pantalla Gamer', categoria: 'Periféricos', precio: 1149900, stock: 7, imagen: '/TALLER"-REACT.github.io/images/PantallaGamer.png' },
-  { id: 4, nombre: 'Mouse Pad Gamer', categoria: 'Periféricos', precio: 669000, stock: 1, imagen: '/TALLER"-REACT.github.io/images/MousePadGamer.png' },
-  { id: 5, nombre: 'Silla Gamer', categoria: 'Periféricos', precio: 3899000, stock: 3, imagen: '/TALLER"-REACT.github.io/images/SillaGamer.png' },
-  { id: 6, nombre: 'Audiculares Gamer', categoria: 'Audio', precio: 72000, stock: 0, imagen: '/TALLER"-REACT.github.io/images/AudicularesGamer.png' },
+  { id: 1, nombre: 'Mouse Gamer', categoria: 'Audio', precio: 22000, stock: 22, imagen: '/TALLER2-REACT.github.io/images/MouseGamer.png' },
+  { id: 2, nombre: 'Teclado Gamer', categoria: 'Periféricos', precio: 115000, stock: 3, imagen: '/TALLER2-REACT.github.io/images/teclado.png' },
+  { id: 3, nombre: 'Pantalla Gamer', categoria: 'Periféricos', precio: 1149900, stock: 7, imagen: '/TALLER2-REACT.github.io/images/PantallaGamer.png' },
+  { id: 4, nombre: 'Mouse Pad Gamer', categoria: 'Periféricos', precio: 669000, stock: 1, imagen: '/TALLER2-REACT.github.io/images/MousePadGamer.png' },
+  { id: 5, nombre: 'Silla Gamer', categoria: 'Periféricos', precio: 3899000, stock: 3, imagen: '/TALLER2-REACT.github.io/images/SillaGamer.png' },
+  { id: 6, nombre: 'Audiculares Gamer', categoria: 'Audio', precio: 72000, stock: 0, imagen: '/TALLER2-REACT.github.io/images/AudicularesGamer.png' },
 ];
 
 const categorias = ['Audio', 'Periféricos', 'Almacenamiento'];
